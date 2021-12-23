@@ -1,6 +1,6 @@
 # Group4 - Picking, placing, and cappings markers and caps
 
-The goal of this project was to pick, place and cap markers with caps, and was thus heavily inspired by the application of robots in manufacturing and industry. Our project used a RealSense camera to detect colors of the markers, and MoveIt manipulation commands to actuate the robot. Franka-specific actions also were used to grip caps and markers during movement. The framework of the project was controlled using a state machine developed in the ROS package called SMACH. ENsure that the panda_moveit_config and the franka_control packages are sourced and configured as detailed here: https://nu-msr.github.io/me495_site/franka.html
+The goal of this project was to pick, place and cap markers with caps, and was thus heavily inspired by the application of robots in manufacturing and industry. Our project used a RealSense camera to detect colors of the markers, and MoveIt manipulation commands to actuate the robot. Franka-specific actions also were used to grip caps and markers during movement. The framework of the project was controlled using a state machine developed in the ROS package called SMACH. Ensure that the panda_moveit_config and the franka_control packages are sourced and configured as detailed here: https://nu-msr.github.io/me495_site/franka.html
 
 
 ## Instructions to run the robot
